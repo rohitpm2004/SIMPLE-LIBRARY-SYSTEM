@@ -1,0 +1,146 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    inline-size: 100%;
+    block-size: 100bh;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+.container{
+    inline-size: 60%;
+    block-size: 5000px;
+    max-height: max-content;
+    background-color: aqua;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    padding: 30px;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0px 0px  30px;
+}
+ 
+.inputs{
+    display: flex;
+    gap: 20px;
+    
+}
+input{
+    inline-size: 300px;
+    block-size: 40px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    padding: 10px;
+}
+.button1{
+    background-color: rgb(121, 28, 207);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius:5px ;
+    cursor: pointer;
+}
+.button1:hover{
+    background-color: rgba(132, 41, 216, 0.4);
+    color: rgb(0, 0, 0);
+}
+.select{
+    inline-size: 100%;
+    margin-inline-start: 120px;
+    margin-block-start: 50px;
+    font-size: 1.5rem;
+}
+select{
+    inline-size: 80%;
+    block-size: 40px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+
+}
+.button2{
+    inline-size: 80%;
+    background-color: rgb(121, 28, 207);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius:5px ;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-block-start: 50px;
+    margin-inline-start: 120px;
+    cursor: pointer;
+}
+.button2:active{
+    background-color: rgb(138, 43, 226 ,0.4);
+    color: rgb(0, 0, 0);
+}
+.collection{
+    margin-block-start: 20px;
+    
+}
+.addbox{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-inline-start: 50px;
+}
+.box{
+    inline-size: 450px;
+    block-size: 400px;
+    max-height: max-content;
+    background-color: bisque;
+    padding: 10px;
+    padding-block-start: 20px;
+    border-radius: 20px;
+    border-left: 5px solid blue;
+}
+.box:hover{
+    box-shadow: 0px 0px 10px;
+}
+.pinbox{
+    margin-block-start: 10px;
+    font-size: 1.4rem;
+}
+.divForButton{
+    margin-inline-start: 20px;
+    margin-block-start: 30px;
+    inline-size: 95%;
+    block-size: 50px;
+    display: flex;
+    gap: 200px;
+    background: transparent;
+}
+.buttonForBorrow{
+    inline-size: 200px;
+    block-size: 40px;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    background-color: green;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.buttonForRemove{
+    inline-size: 200px;
+    block-size: 40px;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    background-color: red;
+    cursor: pointer;
+    /* background-color: rgb(11, 13, 15); */
+}
+.buttonForRemove:active{
+    box-shadow: 0px 0px 10px ;
+    background-color: rgb(255, 0, 0,0.5);
+}
+.buttonForBorrow:active{
+    box-shadow: 0px 0px 10px ;
+    background-color: rgb(0, 128, 0 ,0.5);
+}
